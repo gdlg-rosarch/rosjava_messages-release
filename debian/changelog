@@ -1,0 +1,15 @@
+ros-hydro-rosjava-messages (0.1.8-0precise) precise; urgency=high
+
+  * gradle wrapper -> 1.7
+  * avoid crashes if the environment isn't exactly correct.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Mon, 16 Sep 2013 15:00:00 -0000
+
+ros-hydro-rosjava-messages (0.1.7-0precise) precise; urgency=high
+
+  * first release that has done a full scrape of rosdistro for 'official messages'.
+  * rosjava's test_ros messages bundled here as a sub-packages (somewhat dirtily).
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Thu, 12 Sep 2013 15:00:00 -0000
+
+
