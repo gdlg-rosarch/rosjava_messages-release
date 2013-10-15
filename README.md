@@ -1,3 +1,22 @@
+## rosjava_messages - 0.1.26-0
+
+User `snorri@snorriheim` released the packages in the `rosjava_messages` repository by running `/usr/bin/bloom-release --track hydro --rosdistro hydro rosjava_messages` on `Tue, 15 Oct 2013 01:01:28 -0000`
+
+The `rosjava_messages` package was released.
+
+Version of package(s) in repository `rosjava_messages`:
+- rosdistro version: `0.1.22-0`
+- old version: `0.1.22-0`
+- new version: `0.1.26-0`
+
+Versions of tools used:
+- bloom version: `0.4.4`
+- catkin_pkg version: `0.1.19`
+- rosdep version: `0.10.21`
+- rosdistro version: `0.2.13`
+- vcstools version: `0.1.31`
+
+
 ## rosjava_messages - 0.1.22-0
 
 User `snorri@snorriheim` released the packages in the `rosjava_messages` repository by running `/usr/bin/bloom-release --track hydro --rosdistro hydro rosjava_messages` on `Wed, 09 Oct 2013 04:54:03 -0000`
