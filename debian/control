@@ -1,0 +1,12 @@
+Source: ros-hydro-rosjava-messages
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-ackermann-msgs, ros-hydro-actionlib-msgs, ros-hydro-arbotix-msgs, ros-hydro-audio-common-msgs, ros-hydro-calibration-msgs, ros-hydro-catkin, ros-hydro-cob-srvs, ros-hydro-common-msgs, ros-hydro-concert-msgs, ros-hydro-control-msgs, ros-hydro-controller-manager-msgs, ros-hydro-diagnostic-msgs, ros-hydro-dynamixel-msgs, ros-hydro-gateway-msgs, ros-hydro-gazebo-msgs, ros-hydro-geographic-msgs, ros-hydro-geometry-msgs, ros-hydro-hector-nav-msgs, ros-hydro-hector-worldmodel-msgs, ros-hydro-household-objects-database-msgs, ros-hydro-kingfisher-msgs, ros-hydro-kobuki-msgs, ros-hydro-manipulation-msgs, ros-hydro-map-msgs, ros-hydro-map-store, ros-hydro-move-base-msgs, ros-hydro-moveit-msgs, ros-hydro-multimaster-msgs-fkie, ros-hydro-nav-msgs, ros-hydro-nmea-msgs, ros-hydro-object-recognition-msgs, ros-hydro-octomap-msgs, ros-hydro-pcl-msgs, ros-hydro-pr2-controllers-msgs, ros-hydro-pr2-mechanism-msgs, ros-hydro-pr2-msgs, ros-hydro-rocon-app-manager-msgs, ros-hydro-rocon-msgs, ros-hydro-rosgraph-msgs, ros-hydro-rosjava-bootstrap, ros-hydro-rosjava-build-tools, ros-hydro-rosserial-msgs, ros-hydro-sensor-msgs, ros-hydro-shape-msgs, ros-hydro-smach-msgs, ros-hydro-sr-ronex-msgs, ros-hydro-std-msgs, ros-hydro-std-srvs, ros-hydro-stereo-msgs, ros-hydro-tf2-geometry-msgs, ros-hydro-tf2-msgs, ros-hydro-trajectory-msgs, ros-hydro-turtlebot-msgs, ros-hydro-underwater-sensor-msgs, ros-hydro-uuid-msgs, ros-hydro-velodyne-msgs, ros-hydro-visualization-msgs, ros-hydro-wireless-msgs, ros-hydro-yocs-msgs, ros-hydro-zeroconf-msgs
+Homepage: http://ros.org/wiki/rosjava_messages
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rosjava-messages
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-rosjava-bootstrap, ros-hydro-rosjava-build-tools
+Description: Message generation for rosjava.
