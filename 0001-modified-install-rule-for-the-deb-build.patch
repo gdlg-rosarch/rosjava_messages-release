@@ -1,4 +1,4 @@
-From a21f42c2e86d67c158625d1a206c884582a88e6f Mon Sep 17 00:00:00 2001
+From b22b6d09f02f8528016935d6a78c95f565ba2865 Mon Sep 17 00:00:00 2001
 From: Daniel Stonier <d.stonier@gmail.com>
 Date: Tue, 12 Nov 2013 01:46:49 +0900
 Subject: [PATCH] modified install rule for the deb build.
