@@ -15,12 +15,15 @@
  */
 
 task wrapper(type: Wrapper) {
-  gradleVersion = '1.8'
+  gradleVersion = '1.11'
 }
 
 buildscript {
     def rosMavenPath = "$System.env.ROS_MAVEN_PATH".split(':').collect { 'file://' + it }
     def rosMavenRepository = "$System.env.ROS_MAVEN_REPOSITORY"
+    if ( rosMavenRepository == 'null' ) {
+        rosMavenRepository = "https://github.com/rosjava/rosjava_mvn_repo/raw/master"
+    }
     repositories {
         rosMavenPath.each { p ->
             maven {
