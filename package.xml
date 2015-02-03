@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rosjava_messages</name>
-  <version>0.1.318</version>
+  <version>0.1.320</version>
   <description>
     Message generation for rosjava.
   </description>
@@ -182,7 +182,7 @@
   <build_depend>nav2d_msgs</build_depend>
   <build_depend>sr_edc_ethercat_drivers</build_depend>
   <build_depend>blob</build_depend>
-  <build_depend>universal_teleop</build_depend>
+  <!--<build_depend>universal_teleop</build_depend>-->
   <!--<build_depend>explorer</build_depend>-->
   <build_depend>play_motion_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
