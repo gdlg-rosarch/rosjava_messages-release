@@ -1,3 +1,24 @@
+## rosjava_messages (indigo) - 0.2.1-0
+
+The packages in the `rosjava_messages` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo rosjava_messages` on `Wed, 25 Feb 2015 05:12:47 -0000`
+
+The `rosjava_messages` package was released.
+
+Version of package(s) in repository `rosjava_messages`:
+- upstream repository: https://github.com/rosjava/rosjava_messages.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.18`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## rosjava_messages (hydro) - 0.1.320-0
 
 The packages in the `rosjava_messages` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --track hydro --rosdistro hydro rosjava_messages` on `Tue, 03 Feb 2015 13:53:14 -0000`
