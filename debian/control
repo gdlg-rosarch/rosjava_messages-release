@@ -1,0 +1,12 @@
+Source: ros-indigo-rosjava-messages
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib-msgs, ros-indigo-ar-track-alvar-msgs, ros-indigo-catkin, ros-indigo-concert-msgs, ros-indigo-concert-service-msgs, ros-indigo-diagnostic-msgs, ros-indigo-gateway-msgs, ros-indigo-genjava, ros-indigo-geometry-msgs, ros-indigo-map-store, ros-indigo-move-base-msgs, ros-indigo-nav-msgs, ros-indigo-rocon-app-manager-msgs, ros-indigo-rocon-device-msgs, ros-indigo-rocon-interaction-msgs, ros-indigo-rocon-service-pair-msgs, ros-indigo-rocon-std-msgs, ros-indigo-rocon-tutorial-msgs, ros-indigo-roscpp, ros-indigo-rosgraph-msgs, ros-indigo-rosjava-build-tools, ros-indigo-rosjava-test-msgs, ros-indigo-scheduler-msgs, ros-indigo-sensor-msgs, ros-indigo-shape-msgs, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-stereo-msgs, ros-indigo-tf2-msgs, ros-indigo-trajectory-msgs, ros-indigo-uuid-msgs, ros-indigo-visualization-msgs, ros-indigo-world-canvas-msgs, ros-indigo-yocs-msgs
+Homepage: http://ros.org/wiki/rosjava_messages
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rosjava-messages
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-genjava, ros-indigo-rosjava-build-tools
+Description: Message generation for rosjava.
