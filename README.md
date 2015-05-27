@@ -1,3 +1,24 @@
+## rosjava_messages (hydro) - 0.1.342-0
+
+The packages in the `rosjava_messages` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --track hydro --rosdistro hydro rosjava_messages` on `Wed, 27 May 2015 02:27:56 -0000`
+
+The `rosjava_messages` package was released.
+
+Version of package(s) in repository `rosjava_messages`:
+- upstream repository: https://github.com/rosjava/rosjava_messages.git
+- release repository: https://github.com/rosjava-release/rosjava_messages-release.git
+- rosdistro version: `0.1.329-0`
+- old version: `0.1.341-0`
+- new version: `0.1.342-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## rosjava_messages (hydro) - 0.1.341-0
 
 The packages in the `rosjava_messages` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --track hydro --rosdistro hydro rosjava_messages` on `Wed, 27 May 2015 01:57:14 -0000`
