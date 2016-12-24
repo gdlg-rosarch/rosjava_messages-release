@@ -1,3 +1,26 @@
+## rosjava_messages (kinetic) - 0.3.0-0
+
+The packages in the `rosjava_messages` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release rosjava_messages --track kinetic --rosdistro kinetic --new-track` on `Sat, 24 Dec 2016 20:34:02 -0000`
+
+The `rosjava_messages` package was released.
+
+Version of package(s) in repository `rosjava_messages`:
+
+- upstream repository: https://github.com/rosjava/rosjava_messages.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## rosjava_messages (hydro) - 0.1.345-0
 
 The packages in the `rosjava_messages` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --track hydro --rosdistro hydro rosjava_messages` on `Fri, 29 May 2015 00:31:54 -0000`
