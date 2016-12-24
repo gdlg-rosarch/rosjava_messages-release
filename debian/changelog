@@ -1,0 +1,166 @@
+ros-kinetic-rosjava-messages (0.3.0-0jessie) jessie; urgency=high
+
+  * updates for Kinetic release.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Thu, 15 Dec 2016 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.2.2-0jessie) jessie; urgency=high
+
+  * add world_canvas_msgs
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 22 Apr 2015 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.2.1-0jessie) jessie; urgency=high
+
+  * workaround for move_base_msgs (add roscpp as a msg package).
+  * dependencies for builds of rosjava/android core and android interactions added.
+  * restructured as a meta-message artifact generator of core messages only for indigo.
+  * Contributors: Daniel Stonier, Martin Pecka
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 25 Feb 2015 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.52-0jessie) jessie; urgency=high
+
+  * message generation and indexing now more intelligent, checks message_generation deps, not xxx_msgs naming.
+  * scrapes for many more packages (too many to list) with the new indexing
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Thu, 26 Dec 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.40-0jessie) jessie; urgency=high
+
+  * tf2_geometry_msgs -> 0.4.9
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Mon, 11 Nov 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.39-0jessie) jessie; urgency=high
+
+  * velodyne_msgs -> 1.1.2
+  * yocs_msgs -> 0.5.2
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Mon, 11 Nov 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.38-0jessie) jessie; urgency=high
+
+  * constrain open ranged dependencies.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Fri, 01 Nov 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.37-0jessie) jessie; urgency=high
+
+  * concert_msgs -> 0.6.4
+  * gateway_msgs -> 0.6.4
+  * rocon_app_manager_msgs -> 0.6.4
+  * rocon_msgs -> 0.6.4
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Fri, 01 Nov 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.36-0jessie) jessie; urgency=high
+
+  * remove unintended rocon_std_msgs
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Thu, 31 Oct 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.35-0jessie) jessie; urgency=high
+
+  * use ROS_MAVEN_REPOSITORY
+  * concert_msgs -> 0.6.3
+  * gateway_msgs -> 0.6.3
+  * rocon_app_manager_msgs -> 0.6.3
+  * rocon_msgs -> 0.6.3
+  * 
+    
+      * humanoid_msgs -> 0.2.0
+    
+  * 
+    
+      * humanoid_nav_msgs -> 0.2.0
+    
+  * 
+    
+      * nao_msgs -> 0.2.2
+    
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Thu, 31 Oct 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.32-0jessie) jessie; urgency=high
+
+  * use maven style open range dependencies
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Fri, 25 Oct 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.31-0jessie) jessie; urgency=high
+
+  * rosserial_msgs -> 0.5.4
+  * 
+    
+      * wireless_msgs -> 0.0.1
+    
+  * multimaster_fkie_msgs -> 0.3.7
+  * kingfisher_msgs -> 0.0.2
+  * yocs_msgs -> 0.5.1
+  * controller_manager_msgs -> 0.5.8
+  * gazebo_msgs -> 2.3.2
+  * hector_nav_msgs -> 0.3.1
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 09 Oct 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.22-0jessie) jessie; urgency=high
+
+  * 
+    
+      * yocs_msgs -> 0.4.1
+    
+  * 
+    
+      * sr_ronex_messages -> 0.9.3
+    
+  * rosgraph_msgs -> 1.9.50
+  * std_srvs -> 1.9.50
+  * geographic_msgs -> 0.3.1
+  * move_base_msgs -> 1.11.4
+  * moveit_msgs -> 0.5.2
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 09 Oct 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.15-0jessie) jessie; urgency=high
+
+  * use updated ros gradle plugins with maven-publish for publishing.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Mon, 23 Sep 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.14-0jessie) jessie; urgency=high
+
+  * rosserial_msgs -> 0.5.3
+  * rosgraph_msgs -> 1.9.49
+  * std_srvs -> 1.9.49
+  * gazebo_msgs -> 2.3.2
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Sun, 22 Sep 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.11-0jessie) jessie; urgency=high
+
+  * run_depends on the build tools only
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Wed, 18 Sep 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.9-0jessie) jessie; urgency=high
+
+  * added ugly mixed msg/code map_store dependency for android_apps
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 17 Sep 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.8-0jessie) jessie; urgency=high
+
+  * gradle wrapper -> 1.7
+  * avoid crashes if the environment isn't exactly correct.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 17 Sep 2013 03:00:00 -0000
+
+ros-kinetic-rosjava-messages (0.1.7-0jessie) jessie; urgency=high
+
+  * first release that has done a full scrape of rosdistro for 'official messages'.
+  * rosjava's test_ros messages bundled here as a sub-packages (somewhat dirtily).
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Fri, 13 Sep 2013 03:00:00 -0000
+
+
